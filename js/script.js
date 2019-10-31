@@ -13,5 +13,14 @@ submit.addEventListener("click", function(){
     const maleName=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
     const femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
+    // validation
+    if(day==""){
+        alert("please enter day");
+    } else if(month==""){
+        alert("please enter month");
+    } else if(year==""){
+        alert("please enter year");
+    }
+
 
 })
