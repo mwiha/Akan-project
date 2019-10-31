@@ -7,6 +7,7 @@ submit.addEventListener("click", function(){
     const dayOfWeek = date.getDay();
     const male=document.getElementById("male");
     const female=document.getElementById("female");
+    const results=document.getElementById("result");
 
     const days=["sunday","Monday","Tuesday","Wednesday","Thursday","Friday","saturday"];
     const maleName=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
