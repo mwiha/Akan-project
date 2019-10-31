@@ -12,7 +12,18 @@
 
 ## Set Up Instructions
 
+- To use the app, just visit the url using the browser
+- To use the app on your computer just clone it from the repo. In the terminal, do the following:
+
+```bash
+git clone https://github.com/mwiha/Akan-project.git
+```
+
 ## BDD
+
+- The user is supposed to visit the website and enter the correct date of birth
+- When the user enters wrong date of birth, they're given a red alert
+- When the user enter the correct data, they're given a green alert of their Akan name
 
 ## Technologies used
 
