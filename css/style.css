@@ -1,1 +1,9 @@
 @import url(bootstrap.min.css);
+
+body {
+    background-image:url("https://bit.ly/2JDRLav");
+    background-size: cover;
+}
+.container{
+    text-align: center;
+}
