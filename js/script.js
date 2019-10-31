@@ -8,8 +8,9 @@ submit.addEventListener("click", function(){
     const male=document.getElementById("male");
     const female=document.getElementById("female");
 
-    
+    const days=["sunday","Monday","Tuesday","Wednesday","Thursday","Friday","saturday"];
+    const maleName=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+    const femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
-    
-    
+
 })
