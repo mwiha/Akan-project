@@ -14,7 +14,19 @@ submit.addEventListener("click", function(){
     const femaleName=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
     // validation
-    if(day==""){
+    if(day<=0 || day>31){
+        results.innerHTML = "please enter valid day";
+        results.style.color="red";
+    } else if(month<=0 || month>12){
+        results.innerHTML = "please enter valid day";
+        results.style.color="red";
+    } else if( year<=0){
+        results.innerHTML = "Year can't be zero or a negative number";
+        results.style.color="red";
+    } else if( year.toString().length !== 4){
+        results.innerHTML = "enter valid year";
+        results.style.color="red";
+    }else if(day==""){
         results.innerHTML = "please enter day";
         results.style.color="red";
     } else if(month==""){
