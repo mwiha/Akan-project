@@ -6,4 +6,12 @@ body {
 }
 .container{
     text-align: center;
+    font-size: 30px;
+}
+h1,h2{
+    font-weight: bold;
+}
+#form{
+    width: 50%;
+    margin: 0 auto;
 }
